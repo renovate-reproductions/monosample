@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@monosample/core-ui': workspace:1.0.0
   '@monosample/lib': workspace:1.0.0
-  '@types/jest': ^24.0.11
+  '@types/jest': 24.9.1
   '@types/jwt-decode': ^2.2.1
   '@vue/cli-plugin-babel': ^4.0.0
   '@vue/cli-plugin-router': ^4.0.0
@@ -31,7 +31,7 @@ dependencies:
   vue-router: 3.1.3
 
 devDependencies:
-  '@types/jest': 24.0.19
+  '@types/jest': 24.9.1
   '@types/jwt-decode': 2.2.1
   '@vue/cli-plugin-babel': 4.0.4_@vue+cli-service@4.0.4
   '@vue/cli-plugin-router': 4.0.4_@vue+cli-service@4.0.4
@@ -1097,14 +1097,10 @@ packages:
       '@types/istanbul-lib-report': 1.1.1
     dev: true
 
-  /@types/jest-diff/20.0.1:
-    resolution: {integrity: sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==}
-    dev: true
-
-  /@types/jest/24.0.19:
-    resolution: {integrity: sha512-YYiqfSjocv7lk5H/T+v5MjATYjaTMsUkbDnjGqSMoO88jWdtJXJV4ST/7DKZcoMHMBvB2SeSfyOzZfkxXHR5xg==}
+  /@types/jest/24.9.1:
+    resolution: {integrity: sha512-Fb38HkXSVA4L8fGKEZ6le5bB8r6MRWlOCZbVuWZcmOMSCd2wCYOwN1ibj8daIoV9naq7aaOZjrLCoCMptKU/4Q==}
     dependencies:
-      '@types/jest-diff': 20.0.1
+      jest-diff: 24.9.0
     dev: true
 
   /@types/jwt-decode/2.2.1:
@@ -1294,7 +1290,7 @@ packages:
     dependencies:
       '@babel/core': 7.6.4
       '@babel/plugin-transform-modules-commonjs': 7.6.0_@babel+core@7.6.4
-      '@types/jest': 24.0.19
+      '@types/jest': 24.9.1
       '@vue/cli-service': 4.0.4_vue-template-compiler@2.6.10
       '@vue/cli-shared-utils': 4.0.4
       babel-core: 7.0.0-bridge.0_@babel+core@7.6.4
@@ -4113,6 +4109,7 @@ packages:
     resolution: {integrity: sha512-oeyj2H3EjjonWcFjD5NvZNE9Rqe4UW+nQBU2HNeKw0koVLEFIhtyETyAakeAM3de7Z/SW5kcA+fZUait9EApnw==}
     engines: {node: '>=4.0'}
     os: [darwin]
+    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
     requiresBuild: true
     dependencies:
       nan: 2.14.0
@@ -6177,6 +6174,7 @@ packages:
 
   /nan/2.14.0:
     resolution: {integrity: sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -8816,6 +8814,7 @@ packages:
     resolution: {integrity: sha512-+gh/xFte41GPrgSMJ/oJVq15zYmqr74pY9VoM69UzMzq9NFk4YDylclb1/bhEzZSaUQjbW5RvniHeq1cdtRYjw==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+    requiresBuild: true
     dependencies:
       commander: 2.20.0
       source-map: 0.6.1

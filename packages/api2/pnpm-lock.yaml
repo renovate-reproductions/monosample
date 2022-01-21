@@ -10,7 +10,7 @@ specifiers:
   '@nestjs/testing': ^6.7.1
   '@nestjs/typeorm': 6.2.0
   '@types/express': ^4.17.1
-  '@types/jest': ^24.0.18
+  '@types/jest': 24.9.1
   '@types/node': ^12.7.5
   '@types/supertest': ^2.0.8
   bcryptjs: 2.4.3
@@ -49,7 +49,7 @@ devDependencies:
   '@nestjs/schematics': 6.7.0
   '@nestjs/testing': 6.8.3_aabcbb32eed6054a0fab59a8540ce796
   '@types/express': 4.17.1
-  '@types/jest': 24.0.19
+  '@types/jest': 24.9.1
   '@types/node': 12.11.1
   '@types/supertest': 2.0.8
   jest: 24.9.0
@@ -648,14 +648,10 @@ packages:
       '@types/istanbul-lib-report': 1.1.1
     dev: true
 
-  /@types/jest-diff/20.0.1:
-    resolution: {integrity: sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==}
-    dev: true
-
-  /@types/jest/24.0.19:
-    resolution: {integrity: sha512-YYiqfSjocv7lk5H/T+v5MjATYjaTMsUkbDnjGqSMoO88jWdtJXJV4ST/7DKZcoMHMBvB2SeSfyOzZfkxXHR5xg==}
+  /@types/jest/24.9.1:
+    resolution: {integrity: sha512-Fb38HkXSVA4L8fGKEZ6le5bB8r6MRWlOCZbVuWZcmOMSCd2wCYOwN1ibj8daIoV9naq7aaOZjrLCoCMptKU/4Q==}
     dependencies:
-      '@types/jest-diff': 20.0.1
+      jest-diff: 24.9.0
     dev: true
 
   /@types/json5/0.0.29:
@@ -1690,6 +1686,7 @@ packages:
   /colors/1.4.0:
     resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
     engines: {node: '>=0.1.90'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2667,6 +2664,7 @@ packages:
     resolution: {integrity: sha512-oeyj2H3EjjonWcFjD5NvZNE9Rqe4UW+nQBU2HNeKw0koVLEFIhtyETyAakeAM3de7Z/SW5kcA+fZUait9EApnw==}
     engines: {node: '>=4.0'}
     os: [darwin]
+    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
     requiresBuild: true
     dependencies:
       nan: 2.14.0
@@ -4307,6 +4305,7 @@ packages:
 
   /nan/2.14.0:
     resolution: {integrity: sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -6256,6 +6255,7 @@ packages:
     resolution: {integrity: sha512-+gh/xFte41GPrgSMJ/oJVq15zYmqr74pY9VoM69UzMzq9NFk4YDylclb1/bhEzZSaUQjbW5RvniHeq1cdtRYjw==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+    requiresBuild: true
     dependencies:
       commander: 2.20.0
       source-map: 0.6.1
