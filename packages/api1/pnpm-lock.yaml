@@ -2,12 +2,12 @@ lockfileVersion: 5.3
 
 specifiers:
   '@monosample/lib': 1.0.0
-  '@types/bcryptjs': ^2.4.2
-  '@types/jsonwebtoken': ^8.3.2
+  '@types/bcryptjs': 2.4.2
+  '@types/jsonwebtoken': 8.5.8
   '@types/koa': 2.0.48
-  '@types/koa-bodyparser': ^4.3.0
-  '@types/koa-helmet': ^3.1.2
-  '@types/koa-router': ^7.0.41
+  '@types/koa-bodyparser': 4.3.5
+  '@types/koa-helmet': 3.1.2
+  '@types/koa-router': 7.4.4
   '@types/node': 12.0.8
   bcryptjs: 2.4.3
   eslint: 6.5.1
@@ -20,7 +20,7 @@ specifiers:
   koa-router: 7.4.0
   moment: 2.24.0
   pg: 7.12.1
-  typescript: ~3.6.4
+  typescript: 3.6.5
   winston: 3.2.1
 
 dependencies:
@@ -39,14 +39,14 @@ dependencies:
 
 devDependencies:
   '@types/bcryptjs': 2.4.2
-  '@types/jsonwebtoken': 8.3.5
+  '@types/jsonwebtoken': 8.5.8
   '@types/koa': 2.0.48
-  '@types/koa-bodyparser': 4.3.0
+  '@types/koa-bodyparser': 4.3.5
   '@types/koa-helmet': 3.1.2
-  '@types/koa-router': 7.0.42
+  '@types/koa-router': 7.4.4
   '@types/node': 12.0.8
   eslint: 6.5.1
-  typescript: 3.6.4
+  typescript: 3.6.5
 
 packages:
 
@@ -121,8 +121,8 @@ packages:
     resolution: {integrity: sha512-PGAK759pxyfXE78NbKxyfRcWYA/KwW17X290cNev/qAsn9eQIxkH4shoNBafH37wewhDG/0p1cHPbK6+SzZjWQ==}
     dev: true
 
-  /@types/jsonwebtoken/8.3.5:
-    resolution: {integrity: sha512-VGM1gb+LwsQ5EPevvbvdnKncajBdYqNcrvixBif1BsiDQiSF1q+j4bBTvKC6Bt9n2kqNSx+yNTY2TVJ360E7EQ==}
+  /@types/jsonwebtoken/8.5.8:
+    resolution: {integrity: sha512-zm6xBQpFDIDM6o9r6HSgDeIcLy82TKWctCXEPbJJcXb5AKmi5BNNdLXneixK4lplX3PqIVcwLBCGE/kAGnlD4A==}
     dependencies:
       '@types/node': 12.0.8
     dev: true
@@ -131,8 +131,8 @@ packages:
     resolution: {integrity: sha1-/1QEYtL7TQqIRBzq8n0oewHD2Hg=}
     dev: true
 
-  /@types/koa-bodyparser/4.3.0:
-    resolution: {integrity: sha512-aB/vwwq4G9FAtKzqZ2p8UHTscXxZvICFKVjuckqxCtkX1Ro7F5KHkTCUqTRZFBgDoEkmeca+bFLI1bIsdPPZTA==}
+  /@types/koa-bodyparser/4.3.5:
+    resolution: {integrity: sha512-NRqqoTtt7cfdDk/KNo+EwCIKRuzPAu/wsaZ7tgIvSIBtNfxuZHYueaLoWdxX3ZftWavQv07NE46TcpyoZGqpgQ==}
     dependencies:
       '@types/koa': 2.0.48
     dev: true
@@ -150,8 +150,8 @@ packages:
       '@types/koa': 2.0.48
     dev: true
 
-  /@types/koa-router/7.0.42:
-    resolution: {integrity: sha512-mggrNY7Ywwjt7QjaMAlbb1ixE+v7AFskOeyKdmZT/NvPVEAo48gYUxIcF8ILlMc3eg1bo6SxNoUcbxhTv7edrA==}
+  /@types/koa-router/7.4.4:
+    resolution: {integrity: sha512-3dHlZ6CkhgcWeF6wafEUvyyqjWYfKmev3vy1PtOmr0mBc3wpXPU5E8fBBd4YQo5bRpHPfmwC5yDaX7s4jhIN6A==}
     dependencies:
       '@types/koa': 2.0.48
     dev: true
@@ -2535,8 +2535,8 @@ packages:
       mime-types: 2.1.24
     dev: false
 
-  /typescript/3.6.4:
-    resolution: {integrity: sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==}
+  /typescript/3.6.5:
+    resolution: {integrity: sha512-BEjlc0Z06ORZKbtcxGrIvvwYs5hAnuo6TKdNFL55frVDlB+na3z5bsLhFaIxmT+dPWgBIjMo6aNnTOgHHmHgiQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
