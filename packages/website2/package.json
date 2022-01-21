@@ -11,22 +11,22 @@
     "@monosample/lib": "workspace:1.0.0",
     "@monosample/core-ui": "workspace:1.0.0",
     "axios": "0.21.1",
-    "core-js": "^3.1.2",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.6",
+    "core-js": "3.20.3",
+    "vue": "2.6.14",
+    "vue-router": "3.5.3",
     "jwt-decode": "2.2.0",
     "cache-loader": "4.1.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
-    "@types/jwt-decode": "^2.2.1",
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-plugin-router": "^4.0.0",
-    "@vue/cli-plugin-typescript": "^4.0.0",
-    "@vue/cli-plugin-unit-jest": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
+    "@types/jwt-decode": "2.2.1",
+    "@vue/cli-plugin-babel": "4.5.15",
+    "@vue/cli-plugin-router": "4.5.15",
+    "@vue/cli-plugin-typescript": "4.5.15",
+    "@vue/cli-plugin-unit-jest": "4.5.15",
+    "@vue/cli-service": "4.5.15",
     "@vue/test-utils": "1.0.0-beta.29",
-    "typescript": "~3.6.4",
-    "vue-template-compiler": "^2.6.10"
+    "typescript": "3.6.5",
+    "vue-template-compiler": "2.6.14"
   }
 }
